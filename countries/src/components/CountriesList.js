@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
 
+
 // Import Components here
+import CountryCard from './CountryCard';
 
-class CountriesList extends Component {
-
+class CountriesList extends React.Component {
+constructor(props){
+  super()
+}
 
 
   render() {
     return (
       <div className="Countries">
         <h1>List of All Countries</h1>
-        <ul>
-         {/* Loop through all countries and send them to 'CountryCard' to display them */}
-        </ul>
+       {this.props.country.map(oneCountry =>(
+        <CountryCard eachCountry ={oneCountry}/>
+    ))}
       </div>
     );
   }

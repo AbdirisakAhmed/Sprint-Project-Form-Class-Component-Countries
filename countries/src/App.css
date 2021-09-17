@@ -1,7 +1,13 @@
+*{
+  color: #fff;
+}
 .App {
   text-align: center;
+  background-image: linear-gradient(135deg, #010002, #a41adb);
 }
-
+h1{
+  color: yellow;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

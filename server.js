@@ -19,6 +19,7 @@ let countries = [
     land_area: 45000,
     id: 0
   }
+  
 ];
 
 server.get('/countries', (req, res) => {

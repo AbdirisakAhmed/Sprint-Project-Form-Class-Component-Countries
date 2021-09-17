@@ -22,11 +22,17 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is the difference between forms in HTML and forms in React.
+1. There is no more difference between them, the forms in HTML can create specially but the forms in React needs The Handle Submit and Handle change Functions also the react form you can validate the form but the HTML form you need a programming Language to validate.
 - [ ] What is HTTP Request?
+2.An HTTP request is made by a client, to a named host, which is located on a server. The aim of the request is to access a resource on the server.
 - [ ] Why does the React team moved away from Class Components?
+3.  clear difference is the syntax. Just like in their names, a functional component is just a plain JavaScript function that returns JSX. A class component is a JavaScript class that extends React. ... The JSX to render will be returned inside the render method.
 - [ ] What are the three component lifecycles?.
+4.The Constructor, Render and ComponentDidMount
 - [ ] How do you change the state in Class Component?.
-
+5.this.setState({
+  stateName : Data
+})
 
 ## Project Set Up
 
